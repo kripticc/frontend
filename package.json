@@ -1,0 +1,17 @@
+{
+  "name": "seed-quickstart",
+  "version": "1.0.0",
+  "description": "> Basic Rust-only template for your new Seed app.",
+  "main": "index.js",
+  "scripts": {
+    "css:dev": "tailwindcss -i ./src/style.css -o ./css/style.min.css --minify --watch",
+    "css:build": "tailwindcss -i ./src/style.css -o ./css/style.min.css --minify",
+    "dev": "trunk serve"
+  },
+  "author": "",
+  "license": "AGPL-3.0-or-later",
+  "devDependencies": {
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.19"
+  }
+}
